@@ -1,8 +1,9 @@
-/**
- * Says hello world.
- * @param subject What the subject of the message is.
- * @returns Hello world message
- */
-export function helloWorld(subject?: string): string {
-	return `Hello, ${subject ?? 'world'}.`;
-}
+import {Options} from 'prettier';
+import xoConfig from 'prettier-config-xo';
+
+const config: Options = {
+	...xoConfig,
+	printWidth: 160,
+};
+
+export = config;
