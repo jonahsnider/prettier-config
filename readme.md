@@ -16,6 +16,6 @@ Add the `prettier` property to your `package.json`.
 {
 	"name": "my-cool-library",
 	"version": "1.0.0",
-	"prettier": "@jonahsnider"
+	"prettier": "@jonahsnider/prettier-config"
 }
 ```
