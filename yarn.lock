@@ -344,7 +344,7 @@ __metadata:
     "@tsconfig/node16": 1.0.2
     "@types/prettier": 2.4.2
     eslint-config-xo: 0.39.0
-    prettier: 2.5.0
+    prettier: 2.5.1
     prettier-config-xo: 2.0.0
     semantic-release: 18.0.1
     typescript: 4.5.2
@@ -5975,7 +5975,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.5.0, prettier@npm:^2.5.0":
+"prettier@npm:2.5.1":
+  version: 2.5.1
+  resolution: "prettier@npm:2.5.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.5.0":
   version: 2.5.0
   resolution: "prettier@npm:2.5.0"
   bin:
