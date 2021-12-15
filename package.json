@@ -36,13 +36,13 @@
 		"prettier-config-xo": "2.0.0"
 	},
 	"devDependencies": {
-		"@jonahsnider/xo-config": "5.0.1",
+		"@jonahsnider/xo-config": "5.0.3",
 		"@semantic-release/exec": "6.0.2",
 		"@tsconfig/node16": "1.0.2",
 		"eslint-config-xo": "0.39.0",
 		"prettier": "2.5.1",
 		"semantic-release": "18.0.1",
-		"typescript": "4.5.3",
+		"typescript": "4.5.4",
 		"xo": "0.47.0"
 	},
 	"publishConfig": {
