@@ -40,7 +40,7 @@
 		"@semantic-release/exec": "6.0.3",
 		"@tsconfig/node16": "1.0.2",
 		"eslint-config-xo": "0.40.0",
-		"prettier": "2.6.1",
+		"prettier": "2.6.2",
 		"semantic-release": "18.0.1",
 		"typescript": "4.6.3",
 		"xo": "0.48.0"
