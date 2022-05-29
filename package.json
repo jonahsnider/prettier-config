@@ -32,7 +32,7 @@
 		"style": "prettier --check ."
 	},
 	"dependencies": {
-		"@types/prettier": "2.6.1",
+		"@types/prettier": "2.6.3",
 		"prettier-config-xo": "2.0.0"
 	},
 	"devDependencies": {
