@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/code-frame@npm:^7.21.4, @babel/code-frame@npm:^7.22.13":
+"@babel/code-frame@npm:^7.21.4":
   version: 7.22.13
   resolution: "@babel/code-frame@npm:7.22.13"
   dependencies:
@@ -651,19 +651,19 @@ __metadata:
   linkType: hard
 
 "@semantic-release/commit-analyzer@npm:^11.0.0-beta.3":
-  version: 11.1.0
-  resolution: "@semantic-release/commit-analyzer@npm:11.1.0"
+  version: 11.0.0-beta.3
+  resolution: "@semantic-release/commit-analyzer@npm:11.0.0-beta.3"
   dependencies:
     conventional-changelog-angular: ^7.0.0
     conventional-commits-filter: ^4.0.0
     conventional-commits-parser: ^5.0.0
     debug: ^4.0.0
-    import-from-esm: ^1.0.3
+    import-from: ^4.0.0
     lodash-es: ^4.17.21
     micromatch: ^4.0.2
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 773e855bfee6d917f4145e1c85940cdf028d00efa197dabea4a86b8d31c6d5609767da147c93ec61d4cc36b74b1c10703482cc15ecab9c468c52e4e177863262
+  checksum: e81ac431b1a7015f2df5ba6ec3f1a9a04a163c2ad600ffd6c126cdd44ac984a48a97c297fb1d4bf65415c480d0aff54b16115961dfdd6c87155c6205ee171d14
   languageName: node
   linkType: hard
 
@@ -747,8 +747,8 @@ __metadata:
   linkType: hard
 
 "@semantic-release/release-notes-generator@npm:^12.0.0-beta.2":
-  version: 12.1.0
-  resolution: "@semantic-release/release-notes-generator@npm:12.1.0"
+  version: 12.0.0-beta.2
+  resolution: "@semantic-release/release-notes-generator@npm:12.0.0-beta.2"
   dependencies:
     conventional-changelog-angular: ^7.0.0
     conventional-changelog-writer: ^7.0.0
@@ -756,13 +756,13 @@ __metadata:
     conventional-commits-parser: ^5.0.0
     debug: ^4.0.0
     get-stream: ^7.0.0
-    import-from-esm: ^1.0.3
+    import-from: ^4.0.0
     into-stream: ^7.0.0
     lodash-es: ^4.17.21
-    read-pkg-up: ^11.0.0
+    read-pkg-up: ^10.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 7e177c77a66091364ffc419ba5deba0d8e1b58857da40fbd34712e8dbe5a8b18def19eba5c5cbefc396402573c334de789683ee276eee82edb9b347d6c17f71c
+  checksum: 20c7e72b654154d801973479445a1ca3d37e2e487eb8c1115dc6175921e0d9f0d8efacd2fec9b17261d377b2f59df4fb43b2000bfdb3691eb9fbeb27283f3a53
   languageName: node
   linkType: hard
 
@@ -886,13 +886,6 @@ __metadata:
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1"
   checksum: e87bccbf11f95035c89a132b52b79ce69a1e3652fe55962363063c9c0dae0fe2477ebc585e03a9652adc6f381d24ba5589cc5e51849df4ced3d3e004a7d40ed5
-  languageName: node
-  linkType: hard
-
-"@types/normalize-package-data@npm:^2.4.3":
-  version: 2.4.3
-  resolution: "@types/normalize-package-data@npm:2.4.3"
-  checksum: 6f60e157c0fc39b80d80eb9043cdd78e4090f25c5264ef0317f5701648a5712fd453d364569675a19aef44a18c6f14f6e4809bdc0b97a46a0ed9ce4a320bbe42
   languageName: node
   linkType: hard
 
@@ -3007,13 +3000,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-up-simple@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "find-up-simple@npm:1.0.0"
-  checksum: 91c3d51c1111b5eb4e6e6d71d21438f6571a37a69dc288d4222b98996756e2f472fa5393a4dddb5e1a84929405d87e86f4bdce798ba84ee513b79854960ec140
-  languageName: node
-  linkType: hard
-
 "find-up@npm:^2.0.0":
   version: 2.1.0
   resolution: "find-up@npm:2.1.0"
@@ -3715,12 +3701,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-from-esm@npm:^1.0.3":
-  version: 1.2.1
-  resolution: "import-from-esm@npm:1.2.1"
-  dependencies:
-    import-meta-resolve: ^4.0.0
-  checksum: 17275e7d512f379bd2e1969171cb88d7da257e12708ed9522296a668559d329559f6798864e5eff5fda297782234387ca3f902a166bcfde7f566a35457a41d83
+"import-from@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "import-from@npm:4.0.0"
+  checksum: 1fa29c05b048da18914e91d9a529e5d9b91774bebbfab10e53f59bcc1667917672b971cf102fee857f142e5e433ce69fa1f0a596e1c7d82f9947a5ec352694b9
   languageName: node
   linkType: hard
 
@@ -3728,13 +3712,6 @@ __metadata:
   version: 2.2.2
   resolution: "import-meta-resolve@npm:2.2.2"
   checksum: 3a5910a6f914b5f06b307d7d1c25710bc56f12e21e923d5b2180dd0d53c6c2d51e7b55df26f168b63f5670babcaca9422b7a9429e877bbb8c1997d79bd65882b
-  languageName: node
-  linkType: hard
-
-"import-meta-resolve@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "import-meta-resolve@npm:4.0.0"
-  checksum: 51c50115fd38e9ba21736f8d7543a58446b92d2cb5f38c9b5ec72426afeb2fb790f82051560a0f16323f44dd73d8d37c07eab5f8dc4635bcdb401daa36727b1a
   languageName: node
   linkType: hard
 
@@ -3763,13 +3740,6 @@ __metadata:
   version: 5.0.0
   resolution: "indent-string@npm:5.0.0"
   checksum: e466c27b6373440e6d84fbc19e750219ce25865cb82d578e41a6053d727e5520dc5725217d6eb1cc76005a1bb1696a0f106d84ce7ebda3033b963a38583fb3b3
-  languageName: node
-  linkType: hard
-
-"index-to-position@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "index-to-position@npm:0.1.0"
-  checksum: d72a0694e001998008615d3dd662a49ebfdbdc18a78163e69c284a66553e46e5c5129f1a7fbde561ccef9429ac77a7fa8d577e4e3c99879ce4876a8f776dc0d5
   languageName: node
   linkType: hard
 
@@ -5952,18 +5922,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-json@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "parse-json@npm:8.0.0"
-  dependencies:
-    "@babel/code-frame": ^7.22.13
-    index-to-position: ^0.1.0
-    json-parse-even-better-errors: ^3.0.0
-    type-fest: ^4.6.0
-  checksum: 273d32b15a0ef5c2cc4278025b3b2ef8984755e3208c484d05571682880c2255d661ca0bd83aa6d0b5b7f944e7a156f6ffed5525ff0a43a5716b78a54d637feb
-  languageName: node
-  linkType: hard
-
 "path-exists@npm:^3.0.0":
   version: 3.0.0
   resolution: "path-exists@npm:3.0.0"
@@ -6296,17 +6254,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-pkg-up@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "read-pkg-up@npm:11.0.0"
-  dependencies:
-    find-up-simple: ^1.0.0
-    read-pkg: ^9.0.0
-    type-fest: ^4.6.0
-  checksum: c08fe324a6d8cb3f1f4533074db8a4ef222c85af74bc30e7a98117c578e5d6b2dd8868fded660386167c95ffaf5d566f95743a621581df332573bc989c19cf45
-  languageName: node
-  linkType: hard
-
 "read-pkg-up@npm:^7.0.1":
   version: 7.0.1
   resolution: "read-pkg-up@npm:7.0.1"
@@ -6339,18 +6286,6 @@ __metadata:
     parse-json: ^7.0.0
     type-fest: ^4.2.0
   checksum: f4cd164f096e78cf3e338a55f800043524e3055f9b0b826143290002fafc951025fc3cbd6ca683ebaf7945efcfb092d31c683dd252a7871a974662985c723b67
-  languageName: node
-  linkType: hard
-
-"read-pkg@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "read-pkg@npm:9.0.0"
-  dependencies:
-    "@types/normalize-package-data": ^2.4.3
-    normalize-package-data: ^6.0.0
-    parse-json: ^8.0.0
-    type-fest: ^4.6.0
-  checksum: a5a6233607b09891d8f2a70333a56b04db934a7a61b4e3b235594b9f971556c5ecd5cf9708be1e5a37ad88677ddfd53a94f46851323c1c812aec938c65acc056
   languageName: node
   linkType: hard
 
@@ -7500,13 +7435,6 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "type-fest@npm:4.6.0"
-  checksum: e38f2b4b35e912bf60dbe7d4350653fb76b241a456e849fab85002ba08e938a26a7c44a330dd5620dd48ce57566be7c97e997064dc0d5066d5b6949b8c444430
-  languageName: node
-  linkType: hard
-
 "typed-array-length@npm:^1.0.4":
   version: 1.0.4
   resolution: "typed-array-length@npm:1.0.4"
@@ -7530,11 +7458,11 @@ resolve@~1.19.0:
 
 "typescript@patch:typescript@5.2.2#~builtin<compat/typescript>, typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
+  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
   languageName: node
   linkType: hard
 
