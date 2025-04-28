@@ -1,1 +1,1 @@
-module.exports = require('.');
+module.exports = require('./tsc_output/index.js');
