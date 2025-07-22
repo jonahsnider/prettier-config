@@ -395,7 +395,7 @@ __metadata:
     "@semantic-release/exec": "npm:7.1.0"
     "@tsconfig/node16": "npm:16.1.4"
     "@types/prettier": "npm:^3.0.0"
-    eslint-config-xo: "npm:0.47.0"
+    eslint-config-xo: "npm:0.48.0"
     prettier: "npm:3.6.2"
     prettier-config-xo: "npm:2.0.0"
     semantic-release: "npm:24.2.7"
@@ -3084,9 +3084,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-xo@npm:0.47.0":
-  version: 0.47.0
-  resolution: "eslint-config-xo@npm:0.47.0"
+"eslint-config-xo@npm:0.48.0":
+  version: 0.48.0
+  resolution: "eslint-config-xo@npm:0.48.0"
   dependencies:
     "@eslint/css": "npm:^0.7.0"
     "@eslint/json": "npm:^0.12.0"
@@ -3094,8 +3094,8 @@ __metadata:
     confusing-browser-globals: "npm:1.0.11"
     globals: "npm:^16.0.0"
   peerDependencies:
-    eslint: ">=9.25.0"
-  checksum: 10/1927423865c1e717994c0df7c8c7bb66d72dbdf500596fcf06d3edef2b3209a02db2baa3a85d7a86e940328086ff021868ca285f37af0257295f9360ee401070
+    eslint: ">=9.27.0"
+  checksum: 10/199350cb62d5a2caeaa373b8b6b9fca2a46c62b265baef2594cdc02b810cf415ad74478dfa321a7c29c25906c629fad62f458d3150dd39c8159e682eb5a75363
   languageName: node
   linkType: hard
 
