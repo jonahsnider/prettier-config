@@ -400,7 +400,7 @@ __metadata:
     prettier-config-xo: "npm:2.0.0"
     semantic-release: "npm:24.2.7"
     typescript: "npm:5.9.2"
-    xo: "npm:1.2.1"
+    xo: "npm:1.2.2"
   languageName: unknown
   linkType: soft
 
@@ -8676,9 +8676,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xo@npm:1.2.1":
-  version: 1.2.1
-  resolution: "xo@npm:1.2.1"
+"xo@npm:1.2.2":
+  version: 1.2.2
+  resolution: "xo@npm:1.2.2"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.5.0"
     "@sindresorhus/tsconfig": "npm:^7.0.0"
@@ -8713,7 +8713,7 @@ __metadata:
     typescript-eslint: "npm:^8.37.0"
   bin:
     xo: dist/cli.js
-  checksum: 10/0fccc84225e6cc9ded1667835561c85d7a53e2e9530653df1280b95dd43ac70d1b143edba645cec38859e5a400f88f7f3948fe0b5df139b8bc968e9c6df6e838
+  checksum: 10/4018579508e6fe93d7b6c7d4461f7a7b9e331e453570834ac340ef41b16ffb4578484db35be4c5dc0905449f6294f0d38f6835d79e80d227ac6d176d574114c2
   languageName: node
   linkType: hard
 
