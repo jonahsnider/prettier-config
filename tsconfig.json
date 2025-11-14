@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"declaration": true,
 		"inlineSourceMap": true,
-		"outDir": "tsc_output"
+		"outDir": "dist"
 	},
 	"extends": "@tsconfig/node16",
 	"include": ["src"]

@@ -6,4 +6,4 @@ const config: Options = {
 	printWidth: 160,
 };
 
-export = config;
+export default config;

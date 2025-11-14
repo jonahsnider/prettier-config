@@ -411,6 +411,7 @@ __metadata:
     semantic-release: "npm:24.2.9"
     typescript: "npm:5.9.3"
     xo: "npm:1.2.3"
+    zshy: "npm:0.4.4"
   languageName: unknown
   linkType: soft
 
@@ -1727,6 +1728,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ajv@npm:^8.0.1":
+  version: 8.17.1
+  resolution: "ajv@npm:8.17.1"
+  dependencies:
+    fast-deep-equal: "npm:^3.1.3"
+    fast-uri: "npm:^3.0.1"
+    json-schema-traverse: "npm:^1.0.0"
+    require-from-string: "npm:^2.0.2"
+  checksum: 10/ee3c62162c953e91986c838f004132b6a253d700f1e51253b99791e2dbfdb39161bc950ebdc2f156f8568035bb5ed8be7bd78289cd9ecbf3381fe8f5b82e3f33
+  languageName: node
+  linkType: hard
+
 "ajv@npm:~8.12.0":
   version: 8.12.0
   resolution: "ajv@npm:8.12.0"
@@ -1835,6 +1848,13 @@ __metadata:
   version: 0.0.2
   resolution: "are-docs-informative@npm:0.0.2"
   checksum: 10/12cdae51a4bb369832ef1a35840604247d4ed0cbc8392f2519988d170f92c3f8c60e465844f41acba1ec3062d0edb2e9133fca38cb9c1214309153d50a25fa29
+  languageName: node
+  linkType: hard
+
+"arg@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "arg@npm:5.0.2"
+  checksum: 10/92fe7de222054a060fd2329e92e867410b3ea260328147ee3fb7855f78efae005f4087e698d4e688a856893c56bb09951588c40f2c901cf6996cd8cd7bcfef2c
   languageName: node
   linkType: hard
 
@@ -1953,6 +1973,13 @@ __metadata:
   version: 3.0.0
   resolution: "arrify@npm:3.0.0"
   checksum: 10/d6c6f3dad9571234f320e130d57fddb2cc283c87f2ac7df6c7005dffc5161b7bb9376f4be655ed257050330336e84afc4f3020d77696ad231ff580a94ae5aba6
+  languageName: node
+  linkType: hard
+
+"astral-regex@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "astral-regex@npm:2.0.0"
+  checksum: 10/876231688c66400473ba505731df37ea436e574dd524520294cc3bbc54ea40334865e01fa0d074d74d036ee874ee7e62f486ea38bc421ee8e6a871c06f011766
   languageName: node
   linkType: hard
 
@@ -3705,6 +3732,13 @@ __metadata:
   version: 2.0.6
   resolution: "fast-levenshtein@npm:2.0.6"
   checksum: 10/eb7e220ecf2bab5159d157350b81d01f75726a4382f5a9266f42b9150c4523b9795f7f5d9fbbbeaeac09a441b2369f05ee02db48ea938584205530fe5693cfe1
+  languageName: node
+  linkType: hard
+
+"fast-uri@npm:^3.0.1":
+  version: 3.1.0
+  resolution: "fast-uri@npm:3.1.0"
+  checksum: 10/818b2c96dc913bcf8511d844c3d2420e2c70b325c0653633f51821e4e29013c2015387944435cd0ef5322c36c9beecc31e44f71b257aeb8e0b333c1d62bb17c2
   languageName: node
   linkType: hard
 
@@ -5610,6 +5644,13 @@ __metadata:
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: 10/d0ea2dd0097e6201be083865d50c3fb54fbfbdb247d9cc5950e086c991f448b7ab0cdab0d57eacccb43473d3f2acd21e134db39f22dac2d6c9ba6bf26978e3d6
+  languageName: node
+  linkType: hard
+
+"lodash.truncate@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "lodash.truncate@npm:4.4.2"
+  checksum: 10/7a495616121449e5d2288c606b1025d42ab9979e8c93ba885e5c5802ffd4f1ebad4428c793ccc12f73e73237e85a9f5b67dd6415757546fbd5a4653ba83e25ac
   languageName: node
   linkType: hard
 
@@ -7641,6 +7682,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"slice-ansi@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "slice-ansi@npm:4.0.0"
+  dependencies:
+    ansi-styles: "npm:^4.0.0"
+    astral-regex: "npm:^2.0.0"
+    is-fullwidth-code-point: "npm:^3.0.0"
+  checksum: 10/4a82d7f085b0e1b070e004941ada3c40d3818563ac44766cca4ceadd2080427d337554f9f99a13aaeb3b4a94d9964d9466c807b3d7b7541d1ec37ee32d308756
+  languageName: node
+  linkType: hard
+
 "smart-buffer@npm:^4.2.0":
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
@@ -8037,6 +8089,19 @@ __metadata:
   dependencies:
     "@pkgr/core": "npm:^0.2.4"
   checksum: 10/9bb2cf11edaf31ba781f1c719dd58087323201bda6392254538aef4dea216aa02a32e25f06643bcfa1c1a2c95e0d84186d82cfb66f9a0ab3a2be4816c696a8a3
+  languageName: node
+  linkType: hard
+
+"table@npm:^6.9.0":
+  version: 6.9.0
+  resolution: "table@npm:6.9.0"
+  dependencies:
+    ajv: "npm:^8.0.1"
+    lodash.truncate: "npm:^4.4.2"
+    slice-ansi: "npm:^4.0.0"
+    string-width: "npm:^4.2.3"
+    strip-ansi: "npm:^6.0.1"
+  checksum: 10/976da6d89841566e39628d1ba107ffab126964c9390a0a877a7c54ebb08820bf388d28fe9f8dcf354b538f19634a572a506c38a3762081640013a149cc862af9
   languageName: node
   linkType: hard
 
@@ -8840,5 +8905,20 @@ __metadata:
   version: 2.0.0
   resolution: "yoctocolors@npm:2.0.0"
   checksum: 10/ae0e5a244bf5c2be111bff84cc5e40751da4df5a26e90c60485df14d1334ff349a1af2908af6c12e90f8d534bbb5e03009182437639e95bfebb6a99b9370ed14
+  languageName: node
+  linkType: hard
+
+"zshy@npm:0.4.4":
+  version: 0.4.4
+  resolution: "zshy@npm:0.4.4"
+  dependencies:
+    arg: "npm:^5.0.2"
+    fast-glob: "npm:^3.3.2"
+    table: "npm:^6.9.0"
+  peerDependencies:
+    typescript: ">5.5.0"
+  bin:
+    zshy: dist/index.cjs
+  checksum: 10/27eed747fa4847400bf587cc9c293f6d84386179bfee9da3299d59f6e91eaab4e480b0ec9747bcbc17f324fb7b29e15b09f41ac4ae6b68bf473132ff730a2d36
   languageName: node
   linkType: hard
