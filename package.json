@@ -40,7 +40,7 @@
 	},
 	"dependencies": {
 		"@types/prettier": "^3.0.0",
-		"prettier-config-xo": "2.0.0"
+		"prettier-config-xo": "2.0.2"
 	},
 	"devDependencies": {
 		"@jonahsnider/xo-config": "6.0.0",
