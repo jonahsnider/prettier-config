@@ -403,7 +403,7 @@ __metadata:
   dependencies:
     "@jonahsnider/xo-config": "npm:6.0.0"
     "@semantic-release/exec": "npm:7.1.0"
-    "@tsconfig/node16": "npm:16.1.7"
+    "@tsconfig/node16": "npm:16.1.8"
     "@types/prettier": "npm:^3.0.0"
     eslint-config-xo: "npm:0.49.0"
     prettier: "npm:3.6.2"
@@ -1092,10 +1092,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node16@npm:16.1.7":
-  version: 16.1.7
-  resolution: "@tsconfig/node16@npm:16.1.7"
-  checksum: 10/e8ef8f244372227fc734bdc18d25b3084d42d6b0c72ab9736cee08580f529ef1e6aa83270472a4cf6e3de2651c87d2a32795729485e30358357860de02ff2a62
+"@tsconfig/node16@npm:16.1.8":
+  version: 16.1.8
+  resolution: "@tsconfig/node16@npm:16.1.8"
+  checksum: 10/094676ab09f94724435f878de8372ecf940272e221ba76e4e0168197123ef73243994dbd46ae6a2fcd39f3924f2dea8e7f6f2abc12ac9903ddfec492ccd33130
   languageName: node
   linkType: hard
 
