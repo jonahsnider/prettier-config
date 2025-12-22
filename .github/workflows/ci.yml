@@ -75,10 +75,10 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'yarn'
+          registry-url: https://registry.npmjs.org
       - name: Install dependencies with Yarn
         run: yarn install
       - name: Publish release
         run: yarn run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
