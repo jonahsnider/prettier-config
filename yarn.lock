@@ -666,7 +666,7 @@ __metadata:
     "@semantic-release/exec": "npm:7.1.0"
     "@types/prettier": "npm:^3.0.0"
     eslint-config-xo: "npm:0.51.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     prettier-config-xo: "npm:2.0.2"
     semantic-release: "npm:25.0.3"
     typescript: "npm:5.9.3"
@@ -7423,7 +7423,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.8.1, prettier@npm:^3.8.1":
+"prettier@npm:3.8.2":
+  version: 3.8.2
+  resolution: "prettier@npm:3.8.2"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/2d64bd01d269c8dd6d8c423a2a2e1fb88230a53aac523204b327de40059ccf8bd8e6fe70b8ce6154b97ed4442e9fd878504ff8a5330f3a4f64bd13d1576f7652
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^3.8.1":
   version: 3.8.1
   resolution: "prettier@npm:3.8.1"
   bin:
