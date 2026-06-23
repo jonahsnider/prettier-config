@@ -826,7 +826,7 @@ __metadata:
     "@jonahsnider/xo-config": "npm:6.0.0"
     "@semantic-release/exec": "npm:7.1.0"
     "@types/prettier": "npm:^3.0.0"
-    eslint-config-xo: "npm:0.53.2"
+    eslint-config-xo: "npm:0.54.0"
     prettier: "npm:3.8.4"
     prettier-config-xo: "npm:2.0.2"
     semantic-release: "npm:25.0.5"
@@ -3966,9 +3966,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-xo@npm:0.53.2":
-  version: 0.53.2
-  resolution: "eslint-config-xo@npm:0.53.2"
+"eslint-config-xo@npm:0.54.0":
+  version: 0.54.0
+  resolution: "eslint-config-xo@npm:0.54.0"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.7.2"
     "@eslint/compat": "npm:^2.1.0"
@@ -3986,7 +3986,7 @@ __metadata:
     eslint-plugin-n: "npm:^18.1.0"
     eslint-plugin-prettier: "npm:^5.5.6"
     eslint-plugin-regexp: "npm:^3.1.0"
-    eslint-plugin-unicorn: "npm:^67.0.0"
+    eslint-plugin-unicorn: "npm:^68.0.0"
     globals: "npm:^17.6.0"
     typescript-eslint: "npm:^8.61.1"
   peerDependencies:
@@ -3998,7 +3998,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/cd820b27f4a764160863aa00f3269d3436df1045f7aca53bcb24612876f48feb9c4906ecaccc5138564d5c606678d9fff544299e8f62acebe40e29edc90a6be3
+  checksum: 10c0/b5779be439449fa4ed21c013469af33677ff0ba13173cf3cdacf2193a9935112441e299586dbf944a3b1e712cbfc936da2ec3f9135c09d2aa623f50d71f56a42
   languageName: node
   linkType: hard
 
@@ -4395,9 +4395,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^67.0.0":
-  version: 67.0.0
-  resolution: "eslint-plugin-unicorn@npm:67.0.0"
+"eslint-plugin-unicorn@npm:^68.0.0":
+  version: 68.0.0
+  resolution: "eslint-plugin-unicorn@npm:68.0.0"
   dependencies:
     "@babel/helper-validator-identifier": "npm:^7.29.7"
     "@eslint-community/eslint-utils": "npm:^4.9.1"
@@ -4417,7 +4417,7 @@ __metadata:
     strip-indent: "npm:^4.1.1"
   peerDependencies:
     eslint: ">=10.4"
-  checksum: 10c0/2b8aabf9bf376757f6ee11bc33830c8c6ef8c8f35860dbdf9f63b4cbd409b2ae6d5fd904f3f47e48eb0cdcecec21817fbc6edbb17a4e96f4cf77a426d5e0ca43
+  checksum: 10c0/28c123b71d541d32ed1586e6962a6cdca72c70e776141aef63609fd560d16c2f805ff4ff8dccd8d3a66afc65dbfe3c45a1a9e65ebb9703b2082147fb44a2e35e
   languageName: node
   linkType: hard
 
