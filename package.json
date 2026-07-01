@@ -46,7 +46,7 @@
 		"@jonahsnider/xo-config": "6.0.0",
 		"@semantic-release/exec": "7.1.0",
 		"eslint-config-xo": "0.55.0",
-		"prettier": "3.9.3",
+		"prettier": "3.9.4",
 		"semantic-release": "25.0.5",
 		"typescript": "6.0.3",
 		"xo": "2.0.2",
