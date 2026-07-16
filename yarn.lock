@@ -646,7 +646,7 @@ __metadata:
     "@jonahsnider/xo-config": "npm:6.0.0"
     "@semantic-release/exec": "npm:7.1.0"
     "@types/prettier": "npm:^3.0.0"
-    eslint-config-xo: "npm:0.58.0"
+    eslint-config-xo: "npm:0.58.1"
     prettier: "npm:3.9.5"
     prettier-config-xo: "npm:2.0.2"
     semantic-release: "npm:25.0.7"
@@ -3239,9 +3239,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-xo@npm:0.58.0":
-  version: 0.58.0
-  resolution: "eslint-config-xo@npm:0.58.0"
+"eslint-config-xo@npm:0.58.1":
+  version: 0.58.1
+  resolution: "eslint-config-xo@npm:0.58.1"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.7.2"
     "@eslint/compat": "npm:^2.1.0"
@@ -3273,7 +3273,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/e358fffbac33a987de0361a87d38edd1ea275050ec2a38fd9eaedd0b7a93892035f6e2cc8d14a907889ed25fd5d76d45e08598b51718a70eb0286c26c62b48ee
+  checksum: 10c0/1d605fe320d466c11cfb5c3a0332f024572b548db1c91c1c7041d3ba31fd08e4670d3f84a84c5bd5caa981b5415e99d542adce2cf172ce7f6a9ca88a9eb487e0
   languageName: node
   linkType: hard
 
