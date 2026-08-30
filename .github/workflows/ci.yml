@@ -50,7 +50,7 @@ jobs:
       - name: Check style
         run: pnpm run style
   publish:
-    name: Publish
+    name: Release
 
     runs-on: ubuntu-latest
 
@@ -65,13 +65,20 @@ jobs:
       id-token: write # to enable use of OIDC for trusted publishing and npm provenance
 
     steps:
-      - name: Checkout git repository
+      - name: Create release
+        id: release
+        uses: googleapis/release-please-action@v5
+      - name: Checkout release
+        if: ${{ steps.release.outputs.release_created }}
         uses: actions/checkout@v7
       - name: Setup pnpm
+        if: ${{ steps.release.outputs.release_created }}
         uses: pnpm/setup@v2
         with:
           cache: true
-      - name: Publish release
-        run: pnpm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build package
+        if: ${{ steps.release.outputs.release_created }}
+        run: pnpm run build
+      - name: Publish package
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm publish --provenance --access public

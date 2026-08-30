@@ -1,0 +1,11 @@
+{
+	"$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+	"bootstrap-sha": "6d4c322060a6b332ed9d475aa4fef555fbcc343b",
+	"packages": {
+		".": {
+			"release-type": "node",
+			"package-name": "@jonahsnider/prettier-config",
+			"include-component-in-tag": false
+		}
+	}
+}

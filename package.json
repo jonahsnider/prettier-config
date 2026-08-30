@@ -1,6 +1,6 @@
 {
 	"name": "@jonahsnider/prettier-config",
-	"version": "0.0.0-development",
+	"version": "1.1.2",
 	"keywords": [
 		"xo",
 		"prettier",
@@ -34,7 +34,6 @@
 	],
 	"scripts": {
 		"build": "zshy",
-		"deploy": "semantic-release",
 		"lint": "oxlint",
 		"style": "prettier --check ."
 	},
@@ -43,10 +42,8 @@
 		"prettier-config-xo": "3.0.0"
 	},
 	"devDependencies": {
-		"@semantic-release/exec": "7.1.0",
 		"oxlint": "1.80.0",
 		"prettier": "3.9.6",
-		"semantic-release": "25.0.9",
 		"typescript": "6.0.3",
 		"zshy": "0.7.3"
 	},
