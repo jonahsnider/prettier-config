@@ -11,17 +11,12 @@ jobs:
     steps:
       - name: Checkout git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install --immutable
+          cache: true
       - name: Build
-        run: yarn run build
+        run: pnpm run build
   lint:
     name: Lint
 
@@ -30,19 +25,14 @@ jobs:
     steps:
       - name: Checkout git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install --immutable
+          cache: true
       - name: Build
-        run: yarn run build
+        run: pnpm run build
       - name: Lint
-        run: yarn run lint
+        run: pnpm run lint
   style:
     name: Check style
 
@@ -51,19 +41,14 @@ jobs:
     steps:
       - name: Checkout git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install --immutable
+          cache: true
       - name: Build
-        run: yarn run build
+        run: pnpm run build
       - name: Check style
-        run: yarn run style
+        run: pnpm run style
   publish:
     name: Publish
 
@@ -82,17 +67,11 @@ jobs:
     steps:
       - name: Checkout git repository
         uses: actions/checkout@v7
-      - name: Enable Corepack
-        run: corepack enable
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
+      - name: Setup pnpm
+        uses: pnpm/setup@v2
         with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-          registry-url: https://registry.npmjs.org
-      - name: Install dependencies with Yarn
-        run: yarn install
+          cache: true
       - name: Publish release
-        run: yarn run deploy
+        run: pnpm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
