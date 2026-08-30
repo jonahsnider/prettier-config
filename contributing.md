@@ -27,7 +27,7 @@ yarn run style
 
 ## Linting
 
-This project uses [XO](https://github.com/xojs/xo) (which uses [ESLint](https://eslint.org) and some plugins internally) to perform static analysis of the source code.
+This project uses [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) to perform static analysis of the source code.
 It reports issues like unused variables or not following best practices to ensure the project is well-written.
 
 ```sh

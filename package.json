@@ -35,7 +35,7 @@
 	"scripts": {
 		"build": "zshy",
 		"deploy": "semantic-release",
-		"lint": "xo",
+		"lint": "oxlint",
 		"style": "prettier --check ."
 	},
 	"dependencies": {
@@ -43,13 +43,11 @@
 		"prettier-config-xo": "3.0.0"
 	},
 	"devDependencies": {
-		"@jonahsnider/xo-config": "6.0.0",
 		"@semantic-release/exec": "7.1.0",
-		"eslint-config-xo": "1.0.0",
+		"oxlint": "1.80.0",
 		"prettier": "3.9.6",
 		"semantic-release": "25.0.9",
 		"typescript": "6.0.3",
-		"xo": "4.0.0",
 		"zshy": "0.7.3"
 	},
 	"packageManager": "pnpm@12.0.0",
