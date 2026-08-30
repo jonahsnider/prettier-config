@@ -19,15 +19,15 @@
 		"email": "jonah@jonahsnider.com",
 		"url": "https://jonahsnider.com"
 	},
+	"type": "module",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"import": "./dist/index.mjs",
-			"require": "./dist/index.js"
+			"default": "./dist/index.js"
 		}
 	},
 	"main": "./dist/index.js",
-	"module": "./dist/index.mjs",
+	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"files": [
 		"dist"
@@ -63,5 +63,8 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"zshy": "./src/index.ts"
+	"zshy": {
+		"exports": "./src/index.ts",
+		"cjs": false
+	}
 }
