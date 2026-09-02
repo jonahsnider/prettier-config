@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/jonahsnider/prettier-config/compare/v2.0.1...v2.0.2) (2026-09-02)
+
+
+### Bug Fixes
+
+* use Prettier's built-in types ([4835439](https://github.com/jonahsnider/prettier-config/commit/483543946aa369d7f79d475e53ec745d2d2e8b7a))
+
 ## [2.0.1](https://github.com/jonahsnider/prettier-config/compare/v2.0.0...v2.0.1) (2026-08-30)
 
 
