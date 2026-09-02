@@ -38,7 +38,6 @@
 		"style": "prettier --check ."
 	},
 	"dependencies": {
-		"@types/prettier": "^3.0.0",
 		"prettier-config-xo": "3.0.0"
 	},
 	"devDependencies": {
@@ -61,5 +60,8 @@
 	"zshy": {
 		"exports": "./src/index.ts",
 		"cjs": false
+	},
+	"peerDependencies": {
+		"prettier": "^3.0.0"
 	}
 }
