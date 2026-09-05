@@ -43,7 +43,7 @@
 	"devDependencies": {
 		"oxlint": "1.81.0",
 		"prettier": "3.9.6",
-		"typescript": "6.0.3",
+		"typescript": "7.0.2",
 		"zshy": "0.7.3"
 	},
 	"packageManager": "pnpm@12.3.4",
