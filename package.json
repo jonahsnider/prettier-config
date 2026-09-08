@@ -44,7 +44,7 @@
 		"oxlint": "1.82.0",
 		"prettier": "3.9.6",
 		"typescript": "6.0.3",
-		"zshy": "0.7.3"
+		"zshy": "0.8.0"
 	},
 	"packageManager": "pnpm@12.3.4",
 	"devEngines": {
