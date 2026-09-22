@@ -41,7 +41,7 @@
 		"prettier-config-xo": "3.0.0"
 	},
 	"devDependencies": {
-		"oxlint": "1.84.0",
+		"oxlint": "1.85.0",
 		"prettier": "3.9.8",
 		"typescript": "6.0.3",
 		"zshy": "0.8.0"
