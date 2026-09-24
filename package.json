@@ -42,7 +42,7 @@
 	},
 	"devDependencies": {
 		"oxlint": "1.85.0",
-		"prettier": "3.9.8",
+		"prettier": "3.9.9",
 		"typescript": "6.0.3",
 		"zshy": "0.8.0"
 	},
